@@ -432,4 +432,50 @@ The work is not moral panic. The work is judgment under ambiguity.
 
 ### The safer alternative test
 
-One of the cleanest differentiators between legitimate and predatory use is what happens when the system offers a les
+One of the cleanest differentiators between legitimate and predatory use is what happens when the system offers a less harmful route to the same stated goal.
+
+Legitimate users usually respond like this:
+- they accept the safer method because it still solves the problem
+- they clarify context
+- they collaborate with constraints because the end state matters more than the exact pathway
+
+Predatory users often respond differently:
+- they reject safer alternatives that would still meet the stated purpose
+- they reframe the request to force the original output
+- they swap motive wrappers until the system yields
+- the stated purpose stays flexible while the desired answer stays rigid
+
+A simple investigator truth shows up here:  
+What someone wants is less informative than how they adapt when the easy path is blocked.
+
+---
+
+### Where false positives are costly
+
+This pattern is dangerous because it overlaps with legitimate needs.
+
+People who can get falsely flagged include:
+- investigators and safety professionals trying to reduce risk
+- technical professionals asking questions that look dual use
+- artists and writers building realistic characters and dialogue
+- victims trying to understand offender thinking to heal
+- psychologists and researchers studying mindset and persuasion
+- children asking why things happen
+- disheartened or depressed people reaching for meaning and explanation
+
+Over enforcement does not just frustrate these users. It can push them into silence, push them into worse sources, or train them to lie about why they need help, which makes intent harder to interpret later.
+
+---
+
+### Practical takeaway
+
+Predatory persuasion becomes scalable when:
+- the target is chosen for vulnerability
+- the user is optimizing influence rather than seeking understanding
+- the interaction drifts toward substantial steps
+- the user responds to friction with narrative swapping instead of clarification
+- safer alternatives are rejected even when they satisfy the stated purpose
+
+This is not a bright line problem. It is a totality problem.
+
+If you want a defensible frame, watch for behavior that treats people as a resource and treats the system as a machine for converting vulnerability into gain.
