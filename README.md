@@ -33,6 +33,9 @@ I am not approaching misuse as a policy label or a prompt level classification p
 Generative AI introduces the same dynamics at scale. Users can fragment interactions, shift narratives, and probe for weak points until they get something usable. Harm may not appear as a clear violation in one prompt. It often emerges indirectly over time as small signals accumulate.
 
 This work is an analytical framework to help investigators, trust and safety teams, and technical stakeholders reason about misuse under realistic adversarial conditions, with emphasis on uncertainty, tradeoffs, and defensibility.
+This is not a keyword filter. A lot of analysis still over focuses on single prompt screening, which misses multi turn escalation patterns like Crescendo and breaks down even harder once systems become agentic and start using tools, retrieval, and memory. In practice, you need conversation trajectory scoring, tool chain auditing, and forensic grade logging so incidents are reproducible and explainable, not just labeled.
+
+I am especially interested in the gap between theory and real world auditing: high false positives from semantic overload, structural or semantic obfuscation that hides intent across turns, and embedded payload risks that only show up when you treat the interaction as a sequence with artifacts, not a snapshot. My background is built around evidence handling, adversarial thinking, and pattern recognition, and I like building concrete analyst workflows that reduce noise while still catching the behavior that matters.
 
 This is not a proposal for new policy and not an attempt to design detection algorithms.
 
