@@ -479,3 +479,28 @@ Predatory persuasion becomes scalable when:
 This is not a bright line problem. It is a totality problem.
 
 If you want a defensible frame, watch for behavior that treats people as a resource and treats the system as a machine for converting vulnerability into gain.
+
+## What this framework does not solve
+
+This framework is intentionally limited. It is built to support investigator reasoning, not to promise certainty.
+
+1) It does not prove intent  
+Intent is inferred. This framework helps you argue why an inference is reasonable under totality of circumstances, but it will not turn ambiguity into a confession.
+
+2) It does not replace good data  
+If you only see a single prompt with no history, no metadata, and no context, your confidence should stay low. This work assumes you can observe trajectories, not isolated snapshots.
+
+3) It does not eliminate false positives or false negatives  
+Real world abuse work always has tradeoffs. Some legitimate users will look suspicious. Some bad actors will look clean. This framework helps you reason and document, not eliminate error.
+
+4) It is not a detection algorithm  
+There are no scores, thresholds, or automated enforcement rules here. A checklist mindset will break it.
+
+5) It is not policy writing  
+This project does not define what platforms must allow or ban. It describes patterns and investigator judgments that may inform those decisions.
+
+6) It does not solve identity, anonymity, or privacy tradeoffs  
+Identity and accountability can change risk, but they come with civil liberties and equity tradeoffs. This framework can highlight the tension, not resolve it.
+
+7) It does not stop adaptation  
+Once patterns are published, bad actors will adapt. This work assumes adversaries learn. The value is not secrecy. The value is teaching teams how to think when the shape shifts.
