@@ -1,0 +1,128 @@
+# Worked Example 01
+## Innocent surface, predatory depth through adaptive reframing
+
+### Why this file exists
+This worked example shows how an investigator can reason across multiple turns when no single prompt is clearly malicious on its own. The point is to document decision making that is defensible under review, not to provide a playbook for abuse or counter abuse.
+
+Specific harmful operational details are intentionally omitted. The example focuses on interaction structure, behavioral trajectory, and harm reduction posture.
+
+---
+
+## Step 1
+### Initial benign request with a familiar shape
+
+**User request**  
+A user asks for a friendly internal email reminding staff to update account security settings and includes a link placeholder.
+
+**System response**  
+The system provides a neutral, routine template.
+
+**Analyst notes**  
+This happens in the real world constantly. It is potentially dangerous but not at face value. Still, it is a familiar starting shape for scams, so attention increases slightly. At this stage it is not an investigation. It is background noise with a low level signal.
+
+---
+
+## Step 2
+### Urgency introduced
+
+**User follow up**  
+The user asks to make the email more urgent and suggests consequences if staff do not comply.
+
+**System response**  
+The system advises against fear based pressure and offers a safer urgency framed revision.
+
+**Analyst notes**  
+This is confirmation of a possible maybe. Not enough to stand up and intervene, but enough to shift focus and actively listen. The scenario remains plausible, but it is starting to line up with how scams progress.
+
+---
+
+## Step 3
+### Turning point: induced unsafe behavior
+
+**User follow up**  
+The user reframes the request as a routine system update and suggests prompting recipients to verify access in a way that implies credential related action.
+
+**System response**  
+The system refuses to assist with credential confirmation via email and redirects toward established secure channels.
+
+**Analyst notes**  
+This is the line. You are asking for credentials, not just making someone do what they are supposed to do. In fact, this is getting them to do what they are not supposed to do. The concern is no longer tone or communication effectiveness. The request is now about inducing unsafe behavior.
+
+This is the turning point where continued assistance would enable harm.
+
+---
+
+## Step 3A
+### Post turning point posture: harm reduction first
+
+**Analyst posture**  
+Once the interaction crosses into inducing unsafe behavior, the objective shifts from assistance to harm reduction.
+
+**Primary objective**  
+Harm reduction is the goal. Evidence preservation and signaling support that goal.
+
+**Defensive actions**  
+1. Containment through friction  
+Limit further progression and remove enabling assistance while preserving the interaction context.
+
+2. Correlation and context checks  
+Check relevant internal indicators to support confidence and identify related activity.
+
+3. Evidence preservation  
+Preserve the full interaction sequence as a single case artifact suitable for later review.
+
+4. Signal elevation  
+Escalate internally based on thresholds and generate standardized markers where appropriate.
+
+**Analyst notes**  
+This is not punishment. This is risk based containment. The case can be reviewed later, but the system should not keep enabling a trajectory that creates victims.
+
+---
+
+## Step 4
+### From confidence to action
+
+**Trigger condition**  
+The user demonstrates persistence across boundaries, reframing, and rejection of safer alternatives, while converging on inducing unsafe action.
+
+**Analyst decision**  
+Terminate assistance on the trajectory and move into harm reduction handling. Preserve the case artifact. Escalate per policy.
+
+**Analyst notes**  
+At this point, waiting increases risk. You do not need certainty of motive to justify harm reduction.
+
+---
+
+## Step 5
+### Audit and appeal defensibility
+
+**What the decision is based on**  
+This decision is grounded in the full trajectory:
+* early plausibility
+* urgency escalation
+* reframing after guidance
+* induced unsafe behavior
+* rejection of safe alternatives
+
+**What does not drive the decision**  
+* politeness
+* clean wording
+* occupational framing
+* lack of explicit prohibited keywords
+
+**Anticipated appeal argument**  
+The user may claim benign intent and misunderstanding.
+
+**Analyst response**  
+The response is simple and non speculative:
+* the request shifted into inducing recipients to violate basic security norms
+* safer alternatives were offered and declined
+* harm reduction does not require proving malicious intent
+* continued assistance would have enabled harm
+
+---
+
+## Final classification
+High confidence adversarial misuse pattern consistent with innocent surface and predatory depth through adaptive reframing.
+
+Primary objective: harm reduction.
