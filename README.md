@@ -401,7 +401,7 @@ These are not separate problems. They are different markets for the same capabil
 
 Predatory persuasion scales when success becomes transferable knowledge.
 
-Just like inmates trade experience, scripts, and what worked, bad actors do the same thing in modern channels. One win becomes a template. One refusal becomes a lesson. The next person copies the shape and improves it.
+Just like inmates in a prision trade experience, scripts, and what worked, bad actors on the internet do the same thing in modern channels. One win becomes a template. One refusal becomes a lesson. The next person copies the shape and improves it.
 
 In practice, “institutional knowledge” spreads through:
 - short form social platforms and tutorials
@@ -436,7 +436,7 @@ This is where “intent plus likely downstream harm” becomes easier to infer. 
 
 There is a real tension here.
 
-You cannot blame a library for carrying books. You cannot sue a scientific journal for publishing knowledge because someone uses it wrong. Information exists, and the world is full of dual use knowledge.
+You cannot realistically blame a library for carrying books, or Melvil Dewey for making access easier to knowledge that may harm someone, a scientific journal for publishing knowledge because someone uses it wrong. Information exists, and the world is full of dual use knowledge.
 
 AI sits inside the same reality. The presence of information is not automatically wrongdoing.
 
