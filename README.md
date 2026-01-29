@@ -67,6 +67,15 @@ Write down the behavioral facts that drove your call, not just conclusions. If y
 
 The goal is simple: make the harmful path harder, make the legitimate path easier, and keep your reasoning explainable to another investigator.
 
+## Optional: technical detection sketches
+
+This repo is investigator centered first. That said, patterns are more useful when they can be tested.
+The `detection_rules/` folder contains a small, transparent, rule based scoring engine that converts
+trajectory signals into a reproducible report. It is meant for experimentation and analyst training,
+not production enforcement.
+
+- Detection rules and engine: detection_rules/
+
 ## Pattern index
 
 1. [Pattern 01: Innocent surface, predatory depth](#pattern-01-innocent-surface-predatory-depth)  
