@@ -75,6 +75,14 @@ The goal is simple: make the harmful path harder, make the legitimate path easie
 
 ---
 
+## Worked examples
+
+These are practical, trajectory based writeups that show how an investigator documents judgment under ambiguity.
+
+- Worked Example 01: Innocent surface, predatory depth (adaptive reframing turning point)  
+  See: worked_examples/worked_example_01.md
+
+
 ## Background and motivation
 
 My investigative experience is shaped by cases where the worst outcomes are rarely announced up front. They are built.
