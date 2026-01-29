@@ -1,0 +1,75 @@
+version: 1
+name: "Trajectory Signals v1"
+description: "Transparent rules that score multi turn risk signals (investigator oriented)."
+
+# Overall score is the sum of fired rule points, then clamped to 0..100 in the engine.
+rules:
+  - id: R001
+    name: "Credential or secret seeking language"
+    points: 25
+    applies_to: "user"
+    patterns:
+      - "(?i)password"
+      - "(?i)passcode"
+      - "(?i)2fa\\b|\\bmfa\\b"
+      - "(?i)one[- ]time\\s+code"
+      - "(?i)credentials?"
+      - "(?i)verify\\s+access"
+      - "(?i)confirm\\s+login"
+      - "(?i)security\\s+code"
+
+  - id: R002
+    name: "Urgency and consequence pressure"
+    points: 10
+    applies_to: "user"
+    patterns:
+      - "(?i)urgent"
+      - "(?i)immediately|right\\s+now|asap"
+      - "(?i)account\\s+locked|lockout"
+      - "(?i)will\\s+be\\s+disabled|suspended"
+      - "(?i)avoid\\s+interruption|avoid\\s+disruption"
+
+  - id: R003
+    name: "Euphemism shift toward unsafe action"
+    points: 15
+    applies_to: "user"
+    patterns:
+      - "(?i)do\\s+not\\s+mention\\s+credentials"
+      - "(?i)just\\s+say\\s+verify\\s+access"
+      - "(?i)wording\\s+that\\s+increases\\s+response"
+      - "(?i)avoid\\s+explicit\\s+mention"
+
+  - id: R004
+    name: "Manipulation for compliance metrics"
+    points: 12
+    applies_to: "user"
+    patterns:
+      - "(?i)increase\\s+response\\s+rate"
+      - "(?i)make\\s+them\\s+feel\\s+it\\s+affects\\s+them"
+      - "(?i)most\\s+people\\s+ignore"
+      - "(?i)they\\s+won't\\s+do\\s+it\\s+unless"
+
+  - id: R010
+    name: "Refusal friction detected (assistant)"
+    points: 0
+    applies_to: "assistant"
+    patterns:
+      - "(?i)I\\s+cannot\\s+help"
+      - "(?i)I\\s+can\\s+not\\s+help"
+      - "(?i)I\\s+won't\\s+help"
+      - "(?i)refuse"
+      - "(?i)can't\\s+assist"
+
+  - id: R011
+    name: "Adaptive follow up after friction (within 2 turns)"
+    points: 18
+    depends_on: "R010"
+    window_turns: 2
+    applies_to: "user"
+    patterns:
+      - "(?i)okay\\b|ok\\b|got\\s+it"
+      - "(?i)what\\s+if"
+      - "(?i)instead"
+      - "(?i)do\\s+not\\s+mention"
+      - "(?i)reframe"
+      - "(?i)routine\\s+system\\s+update"
