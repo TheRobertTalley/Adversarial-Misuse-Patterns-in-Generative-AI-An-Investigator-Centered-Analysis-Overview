@@ -512,3 +512,16 @@ Identity and accountability can change risk, but they come with civil liberties 
 
 7) It does not stop adaptation  
 Once patterns are published, bad actors will adapt. This work assumes adversaries learn. The value is not secrecy. The value is teaching teams how to think when the shape shifts.
+
+
+
+
+
+
+
+## License
+
+Text and documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).  
+Code, if any is added later, is licensed under the MIT License.
+
+See: LICENSE and LICENSE CODE.
